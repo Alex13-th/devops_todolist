@@ -7,7 +7,7 @@
 docker build -t todoapp --build-arg PYTHON_VERSION=3.11 .
 
 ```
-### Build the Docker image:
+### Run the Docker container::
 ```bash
 docker run -p 8080:8080 todoapp
 ```
