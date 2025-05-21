@@ -4,7 +4,7 @@
 ## How to build and run the ToDo App container
 ###  Build the Docker image:
 ```bash
-docker build -t todoapp --build-arg PYTHON_VERSION=3.11 .
+docker build -t todoapp --build-arg PYTHON_VERSION=3.12 .
 
 ```
 ### Run the Docker container::
